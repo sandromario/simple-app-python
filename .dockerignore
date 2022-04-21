@@ -1,0 +1,25 @@
+.git/
+env
+venv
+
+build
+dist
+*.egg-info
+*.egg/
+*.pyc
+*.swp
+
+.tox
+.coverage
+html/*
+__pycache__
+
+# Compiled Documentation
+docs/_build
+
+helm
+
+# The secret file is not in the Docker context anyway, but just to be on the safe side
+secrets_aws-credentials.yaml
+**/*secret*
+**/*credential*
