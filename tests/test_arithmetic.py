@@ -9,7 +9,7 @@ class TestOperations(unittest.TestCase):
         self.assertEqual(10 - 1, 9)
 
     def test_multiplication(self):
-        self.assertEqual(2 * 3, 4)
+        self.assertEqual(2 * 3, 6)
 
 
 if __name__ == "__main__":
