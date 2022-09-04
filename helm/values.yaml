@@ -1,0 +1,9 @@
+image:
+  repository: repos
+  tag: latest
+
+host: your-hostname-here
+
+ingress:
+  prefix: /
+
